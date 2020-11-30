@@ -1,0 +1,100 @@
+a:link {
+    font-family: sans-serif;
+    font-size:15px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+.nav {
+    font-size: 13px;
+    display: inline;
+}
+
+.left-nav {
+    float: left;
+    padding: 30px;
+}
+
+.right-nav {
+    padding-top: 5px;
+    float: right;
+}
+
+.middle-page{
+    text-align: center;
+}
+
+.google-logo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.middle-list{
+    padding-top: 90px;
+    list-style: none;
+}
+
+.user-search{
+    padding: 6px;
+}
+
+
+.input-text{
+    font-size: 35px;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+.input-text:hover{
+    box-shadow: 0px .5px 1px .5px darkgrey;
+}
+
+button.buttons{
+    border-radius: 12px;
+    
+    border: none;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(230, 230, 230);
+    background-size: 100px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button.buttons:hover{
+    box-shadow: 0px .5px 1px .5px darkgrey;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+.left-footer{
+    float: left;
+    padding: 4px;
+}
+
+.center-footer{
+    float: center;
+    text-align: center;
+    padding-right: 220px;
+}
+
+.right-footer{
+    float: right;
+    padding: 4px;
+}

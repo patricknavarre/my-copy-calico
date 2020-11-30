@@ -7,37 +7,53 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="gmail-buttons" id="all-buttons">
-    <a href="https://about.google/" id="about-button"> About </a>
-    </div>
-    <div>
-        <a href="https://store.google.com/" id="store-button"> Store </a>
-    </div>
-    <div>
-        <a href="https://mail.google.com/" id="gmail-button"> Gmail </a>
-    </div>
-    <div>
-        <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" id="images-button"> Images </a>
-    </div>
-    <div>
-        <div class="row" id="row-1">
-        <a href="" class="cell column-1 row-1" id="cell-1">&#9632</a>
-        <a href="" class="cell column-2 row-1" id="cell-2">&#9632</a>
-        <a href="" class="cell column-3 row-1" id="cell-3">&#9632</a>
+    <div class="nav">
+        <div class="left-nav">
+            <a href="https://about.google/" id="about"> About </a>
+            <a href="https://store.google.com/" id="store"> Store </a>
         </div>
-        <div class="row" id="row-2">
-        <a href="" class="cell column-1 row-2" id="cell-4">&#9632</a>
-        <a href="" class="cell column-2 row-2" id="cell-5">&#9632</a>
-        <a href="" class="cell column-3 row-2" id="cell-6">&#9632</a>
+        <div class="right-nav">
+            <a href="https://mail.google.com/" id="gmail-button"> Gmail </a>
+            <a href="https://www.google.com/imghp?hl=en&tab=ri&authuser=0&ogbl" id="images-button"> Images </a>
+            <a href="#"><img src="images/dialpad-pic.png" alt="dialpad-pic" width="40px">
+            <a href="#"><img src="images/pats-pic.png" alt="pats-pic" width="50px">
         </div>
-        <div class="row" id="row-3">
-        <a href="" class="cell column-1 row-3" id="cell-7">&#9632</a>
-        <a href="" class="cell column-2 row-3" id="cell-8">&#9632</a>
-        <a href="" class="cell column-3 row-3" id="cell-9">&#9632</a>
-        </div>
-    <div>
-        <img src="google-screenshot.png" />
     </div>
-
+    <div class="middle-page">
+        <ul class="middle-list">
+            <li class ="google-logo">
+                <div class="google-logo">
+                    <img src="images/google-screenshot.png" />
+                </div>
+            </li>
+            <li>
+                <div class="user-search">
+                    <input type="text" class="input-text" placeholder="" id="text1">
+                </div>
+            </li>
+            <li>
+                <div class="buttons">
+                    <button class="buttons">Google Search</button>
+                    <button class="buttons" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';">I'm Feeling Lucky</button>
+                </div>
+            </li>
+        </ul>
+        </div>
+        <div class="footer">
+            <div class="left-footer">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </div>
+            <div class="center-footer">
+                <img src="images/leaf.png"/>
+                <a href="#">Carbon Neutral Since 2007</a>
+            </div>
+            <div class="right-footer">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>       
+        </div>
 </body>
 </html>
